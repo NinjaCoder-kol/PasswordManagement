@@ -21,8 +21,7 @@ namespace PasswordManagement
                 toolStripStatusLabel1.Text = "Access Granted";
                 Form2 frm = new Form2();
                 frm.Show();
-                Form1 fm = new Form1();
-                fm.Hide();
+                
             }
             else if (Untb1.Text == "" || Pwtb1.Text == "") 
             {
